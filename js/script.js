@@ -76,3 +76,9 @@ const footballTeam = [
         foul: 0,
     }
 ];
+const generateRandomScore = () => {
+    return Math.floor(Math.random()*102)+1;
+}
+for(let i=0 ; i<footballTeam.length ; i++){
+    footballTeam[i].score= generateRandomScore();
+}
