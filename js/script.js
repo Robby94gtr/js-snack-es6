@@ -1,3 +1,4 @@
+// SNACK 1
 //creare un array di oggetti 
 const bicycles = [
 {
@@ -44,3 +45,34 @@ for (let i = 0 ; i<bicycles.length ; i++){
 }
 console.log(moreHeavy);
 console.log(moreHeavy.name);
+
+// SNACK 2
+const footballTeam = [
+    //ogni ogni oggetto decriverà un calciatore
+    {
+        //ogni giocatore deve avere tre proprietà : nome, punti fatti e falli subiti
+        name: 'Roma',
+        score: 0,
+        foul: 0,
+    } ,
+    {
+        name: 'Inter',
+        score: 0,
+        foul: 0,
+    } ,
+    {
+        name: 'Milan',
+        score: 0,
+        foul: 0,
+    } ,
+    {
+        name: 'Bologna',
+        score: 0,
+        foul: 0,
+    } ,
+    {
+        name: 'Fiorentina',
+        score: 0,
+        foul: 0,
+    }
+];
